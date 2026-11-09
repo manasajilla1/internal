@@ -8,7 +8,7 @@ pipeline{
         }
         stage('Run the image '){
             steps{
-                bat 'docker run -d -p 5000:5000 mycontainer mydockerimg'
+                bat 'docker run -d -p 5000:5000 mydockerimg'
             }
         }
     }
